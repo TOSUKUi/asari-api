@@ -2,7 +2,7 @@ import uvicorn
 from typing import List
 from pydantic import BaseModel
 from fastapi import FastAPI
-from lib import asari_async
+from mylib import asari_async
 
 app = FastAPI()
 
